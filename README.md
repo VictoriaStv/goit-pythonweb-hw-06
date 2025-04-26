@@ -38,3 +38,13 @@ python src/main.py -q 1
 python src/crud_cli.py -a create -m Teacher -n "John Doe"
 
 
+## Налаштування середовища
+
+1. Створіть файл `.env` на основі `.example.env`
+2. Вкажіть у ньому ваші параметри підключення до бази:
+
+DB_USER=postgres  
+DB_PASSWORD=12345  
+DB_HOST=localhost  
+DB_PORT=5432  
+DB_NAME=contacts
