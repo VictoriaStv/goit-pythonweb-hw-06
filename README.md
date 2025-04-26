@@ -36,3 +36,5 @@ python src/main.py -q 1
 ## CRUD приклади:
 
 python src/crud_cli.py -a create -m Teacher -n "John Doe"
+
+
